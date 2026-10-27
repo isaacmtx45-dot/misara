@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#f7c6d9">
+<title>Mi Sara 💗</title>
+<meta property="og:title" content="Mi Sara 💗">
+<meta property="og:description" content="para ti">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%97%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="estilo.css?v=1">
+</head>
+<body>
+
+<main id="entrada" class="entrada">
+  <form id="formClave" class="tarjeta" autocomplete="off" novalidate>
+    <div class="flor" aria-hidden="true">🌸</div>
+    <p class="pista">la misma clave de la otra vez</p>
+    <p class="pista-sub">el día de la confesión · solo números</p>
+    <input id="clave" type="text" inputmode="numeric" pattern="[0-9]*" autocomplete="off"
+           placeholder="ddmmaaaa" aria-label="clave" maxlength="14">
+    <button id="abrir" type="submit" disabled>abrir</button>
+    <p id="aviso" class="aviso" role="status" aria-live="polite"></p>
+  </form>
+</main>
+
+<div id="chat" class="chat" hidden>
+  <header class="barra">
+    <span class="avatar" aria-hidden="true">💗</span>
+    <span class="barra-texto">
+      <strong>Mi Sara 💗</strong>
+      <small>nuestro octubre</small>
+    </span>
+  </header>
+
+  <section class="portada">
+    <h1>Mi Sara 💗</h1>
+    <p id="dias" class="dias"></p>
+    <p id="portadaTexto" class="portada-texto"></p>
+    <p class="baja" aria-hidden="true">⌄</p>
+  </section>
+
+  <section id="globos" class="globos" aria-label="nuestros mensajes"></section>
+
+  <section id="cifras" class="cifras aparece"></section>
+
+  <section class="cierre aparece">
+    <p id="cierreTexto"></p>
+    <div class="corazon" aria-hidden="true">💗</div>
+  </section>
+</div>
+
+<script src="pagina.js?v=1"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# LISTA BLANCA (D-03): el repositorio es público; solo sube la página y lo cifrado.
+*
+!.gitignore
+!index.html
+!estilo.css
+!pagina.js
+!datos/
+!datos/m.bin
