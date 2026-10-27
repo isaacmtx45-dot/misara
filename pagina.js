@@ -70,7 +70,7 @@
   function textoDias() {
     const ahora = Date.now();
     const dias = Math.floor((ahora - INICIO) / DIA_MS);
-    let t = `llevamos ${dias} ${plural(dias, "día", "días")} de pétalos 🌸`;
+    let t = `llevamos ${dias} ${plural(dias, "día", "días")} 💗`;
     if (ahora < DOS_MESES) {
       const faltan = Math.ceil((DOS_MESES - ahora) / DIA_MS);
       t += ` · ${plural(faltan, "falta", "faltan")} ${faltan} ${plural(faltan, "día", "días")} para los dos meses`;
